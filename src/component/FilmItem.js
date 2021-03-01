@@ -4,8 +4,12 @@ const FilmItem = ({name, id, url}) => {
     return(
         <>
 
-        <h2>{name}</h2>
-        <h3>{url}</h3>
+        <h2>
+            <a href={url}>
+                {name}
+            </a>
+        </h2>
+        {/* <h3>{url}</h3> */}
 
 
         </>
