@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './App.css';
 import UpcomingReleases from './component/UpcomingReleases';
 import FilmBox from './container/FilmBox';
 
