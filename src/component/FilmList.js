@@ -7,7 +7,7 @@ const FilmList = ({films}) => {
 
     const filmNodes = films.map(({id, name, url}) => {
         return (
-            <FilmItem name={name} key={id} url={url}></FilmItem>
+            <FilmItem key={id} url={url}>{name}</FilmItem>
         )
     });
 

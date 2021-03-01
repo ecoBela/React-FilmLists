@@ -1,15 +1,15 @@
 import React from 'react';
 
-const FilmItem = ({name, id, url}) => {
+const FilmItem = ({children, url}) => {
     return(
         <>
 
         <h2>
-            <a href={url}>
-                {name}
+            <a href={url} target="_blank">
+                {children}
             </a>
         </h2>
-        {/* <h3>{url}</h3> */}
+        
 
 
         </>
